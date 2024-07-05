@@ -4,7 +4,6 @@ from spacy.tokens import Token
 from spacy.language import Language
 import subprocess
 import os
-# this file is my first born child -- Eli
 
 @Language.component("merge_compound_and_proper_nouns")
 def merge_compound_and_proper_nouns(doc):
